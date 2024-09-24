@@ -3,7 +3,7 @@
 
     <!--Remotes-->
     <remote name="org"          fetch="https://github.com/Parad0x-Lavender"         revision="arrow-12.1"/>
-    <remote name="arrow"        fetch="https://github.com/ArrowOS-Devices"          revision="arrow-12.1"/>
+    <remote name="Arrow"        fetch="https://github.com/ArrowOS-Devices"          revision="arrow-12.1"/>
 
     <!--Devices Trees-->
     <project name="android_device_xiaomi_lavender"              path="device/xiaomi/lavender"             remote="org"/>
@@ -17,6 +17,6 @@
     <project name="android_kernel_xiaomi_sdm660_419"            path="kernel/xiaomi/sdm660"               remote="org"/>
     
     <!-- Hardware dependencies -->
-    <project name="android_hardware_xiaomi"                     path="hardware/xiaomi"                    remote="arrow"/>
+    <project name="android_hardware_xiaomi"                     path="hardware/xiaomi"                    remote="Arrow"/>
 
 </manifest>
