@@ -3,7 +3,6 @@
 
     <!-- Remotes -->
     <remote name="org"          fetch="https://github.com/Parad0x-Lavender"       revision="TPP-14"/>
-    <remote name="orga"         fetch="https://github.com/Lavender-LineageOS"     revision="lineage-21.0" />
     <remote name="los"          fetch="https://github.com/LineageOS"              revision="lineage-21"/>
 
     <!-- Devices Trees -->
@@ -16,9 +15,6 @@
     <project name="kernel_xiaomi_lavender_419"          path="kernel/xiaomi/lavender"               remote="org"/>
 
     <!-- Hardware Dependencies -->
-    <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/sdm660/display"    remote="orga"/>
-    <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/sdm660/media"      remote="orga"/>
-    <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/sdm660/audio"      remote="orga"/>
     <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="los"/>
 
 </manifest>
