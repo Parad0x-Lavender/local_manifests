@@ -16,9 +16,9 @@
     <project name="kernel_xiaomi_lavender_419"          path="kernel/xiaomi/lavender"               remote="org"/>
 
     <!-- Hardware Dependencies -->
-    <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/msm8998/display"    remote="orga"/>
-    <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/msm8998/media"      remote="orga"/>
-    <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/msm8998/audio"      remote="orga"/>
-    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                      remote="los"/>
+    <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/sdm660/display"    remote="orga"/>
+    <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/sdm660/media"      remote="orga"/>
+    <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/sdm660/audio"      remote="orga"/>
+    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="los"/>
 
 </manifest>
