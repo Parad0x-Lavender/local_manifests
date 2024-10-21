@@ -10,6 +10,10 @@
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_hardware_qcom_audio" />
+
+    <!-- Replace Source Settings App with our own fork-->
+    <remove-project name="packages_apps_Settings" />
+    <project name="packages_apps_Settings"      path="packages/apps/Settings"   remote="org"/>
     
     <!-- Devices Trees -->
     <project name="device_xiaomi_lavender"              path="device/xiaomi/lavender"               remote="org"/>
