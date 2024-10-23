@@ -2,19 +2,9 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="org"          fetch="https://github.com/Parad0x-Lavender"       revision="TPP-14"/>
-    <remote name="orga"         fetch="https://github.com/Lavender-LineageOS"     revision="lineage-21.0"/>
-    <remote name="los"          fetch="https://github.com/LineageOS"              revision="lineage-21"/>
+    <remote name="org"          fetch="https://github.com/Parad0x-Lavender"       revision="PixelOS-14"/>
+    <remote name="PixelOS"      fetch="https://github.com/PixelOS-AOSP"           revision="fourteen"/>
 
-    <!-- Remove HAL's -->
-    <remove-project name="android_hardware_qcom_display" />
-    <remove-project name="android_hardware_qcom_media" />
-    <remove-project name="android_hardware_qcom_audio" />
-
-    <!-- Replace Source Settings App with our own fork-->
-    <remove-project name="packages_apps_Settings" />
-    <project name="packages_apps_Settings"      path="packages/apps/Settings"   remote="org"/>
-    
     <!-- Devices Trees -->
     <project name="device_xiaomi_lavender"              path="device/xiaomi/lavender"               remote="org"/>
 
@@ -25,9 +15,6 @@
     <project name="kernel_xiaomi_lavender_419"          path="kernel/xiaomi/lavender"               remote="org"/>
 
     <!-- Hardware Dependencies -->
-    <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/sdm660/display"    remote="orga"/>
-    <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/sdm660/media"      remote="orga"/>
-    <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/sdm660/audio"      remote="orga"/>
-    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="los"/>
+    <project name="hardware_xiaomi"                     path="hardware/xiaomi"                      remote="PixelOS"/>
 
 </manifest>
